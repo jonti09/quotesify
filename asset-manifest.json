@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/quotesify/static/css/main.e8ee2e90.chunk.css",
+    "main.js": "/quotesify/static/js/main.95e713ea.chunk.js",
+    "main.js.map": "/quotesify/static/js/main.95e713ea.chunk.js.map",
+    "runtime-main.js": "/quotesify/static/js/runtime-main.de63cc2d.js",
+    "runtime-main.js.map": "/quotesify/static/js/runtime-main.de63cc2d.js.map",
+    "static/js/2.76c6f207.chunk.js": "/quotesify/static/js/2.76c6f207.chunk.js",
+    "static/js/2.76c6f207.chunk.js.map": "/quotesify/static/js/2.76c6f207.chunk.js.map",
+    "index.html": "/quotesify/index.html",
+    "precache-manifest.d6abb03c211daf9a5c4b7a819e3f59ab.js": "/quotesify/precache-manifest.d6abb03c211daf9a5c4b7a819e3f59ab.js",
+    "service-worker.js": "/quotesify/service-worker.js",
+    "static/css/main.e8ee2e90.chunk.css.map": "/quotesify/static/css/main.e8ee2e90.chunk.css.map",
+    "static/js/2.76c6f207.chunk.js.LICENSE.txt": "/quotesify/static/js/2.76c6f207.chunk.js.LICENSE.txt",
+    "static/media/background.jpg": "/quotesify/static/media/background.911e4623.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de63cc2d.js",
+    "static/js/2.76c6f207.chunk.js",
+    "static/css/main.e8ee2e90.chunk.css",
+    "static/js/main.95e713ea.chunk.js"
+  ]
+}
