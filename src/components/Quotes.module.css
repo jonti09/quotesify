@@ -1,0 +1,36 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f4f4f4;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.quote {
+  flex: 1;
+  background-color: #222831;
+  margin: 0 5%;
+  padding: 5%;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.5);
+}
+
+.quoteText {
+  font-family: 'Raleway', serif;
+  text-align: center;
+  font-size: 44px;
+}
+
+.quoteAuthor {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 30px;
+}
