@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { fetchQuotes } from './api';
+import styles from './App.module.css';
+import backgroundImage from './assets/images/background.jpg';
+import Quote from './components/Quote';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    quote: {},
+  };
+
+  async componentDidMount() {
+    const quotes = await fetchQuotes();
+    const quote = quotes[Math.floor(Math.random() * quotes.length)];
+    console.log(quote);
+    this.setState({
+      quote: quote,
+    });
+  }
+
+  render() {
+    return (
+      <div className={styles.container}>
+        <img className={styles.background} src={backgroundImage} alt="Quitesify" />
+        <Quote quote={this.state.quote}></Quote>
+      </div>
+    );
+  }
 }
 
 export default App;
